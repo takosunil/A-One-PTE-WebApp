@@ -1,0 +1,50 @@
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 778px;
+  box-shadow: inset 0 -2px 0 0 rgba($black, 0.5);
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 38px;
+    height: 81px;
+  }
+
+  &__logo-name-a {
+    font-size: 50px;
+    color: $red;
+    font-style: italic;
+  }
+  &__logo-name-pte {
+    font-size: 40px;
+    color: $primary-green;
+    font-style: italic;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 81px;
+    width: 250px;
+
+    &--name {
+      color: $black;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 16px;
+    }
+
+    &--role {
+      color: $black;
+      font-size: 12px;
+      letter-spacing: 0.75px;
+      line-height: 14px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: lightblue;
+  border: 0px;
+  outline-style: none;
+  cursor: pointer;
+  font-size: 14px;
+
+  &--color-green {
+    background-color: $primary-green;
+    color: $white;
+  }
+
+  &--color-blue {
+    background-color: $primary-blue;
+    color: $white;
+  }
+}

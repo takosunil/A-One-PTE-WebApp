@@ -1,0 +1,11 @@
+.dashboard-body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  &__main {
+    padding: 65px;
+    background-color: white;
+    width: 100%;
+  }
+}
